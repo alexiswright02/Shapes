@@ -4,7 +4,7 @@
 // This is also where we define functions to modify the state.
 
 // TODO: Add support for more colors----------------------------------------------
-const colors = ["red","orange","yellow","green","blue","purple"];
+const colors = ["red", "orange", "yellow", "green", "blue", "purple"];
 const sizes = ["small", "medium", "large"];
 const maxShapes = 10;
 const shapes = [
@@ -53,8 +53,8 @@ function render() {
   circleList.replaceChildren(...circleElements);
 
   const counter = document.querySelector("#shape-counter");
-  counter.textContent= shapes.length;
-};
+  counter.textContent = shapes.length;
+}
 
 // === Script ===
 // In this section, we call the functions that we've defined above.
